@@ -42,6 +42,15 @@ header {
   clear: both;
 }
 
+h1 {
+  font-family: "Bitter Bold", serif;
+  line-height: 133%;
+  margin: 0 0 23px 0;
+  font-size: 1.7em;
+  font-weight: normal;
+  display: block;
+}
+
 h2 {
   font-family: "Bitter Bold", serif;
   line-height: 133%;
@@ -239,34 +248,6 @@ footer {
   font-style: normal;
 }
 
-#site-title {
-  background: #1e1e1e;
-  width: 100%;
-  height: 33px;
-  margin-bottom: 2px;
-  text-indent: -474747px;
-}
-
-#site-title-resume {
-  font-family: "Bitter Bold", serif;
-  font-weight: normal;
-  text-indent: 0;
-  background-color: #1e1e1e;
-  padding: 5px 7px;
-  color: #ededed;
-  margin-bottom: 23px;
-  font-size: 1.7em;
-}
-
-#site-description {
-  line-height: 1em;
-  background-color: #600000;
-  width: 100%;
-  height: 8px;
-  text-indent: -474747px;
-  margin: 0 0 23px 0;
-}
-
 .small-caps {
   font-size: 1em;
   text-transform: uppercase;
@@ -343,10 +324,6 @@ footer {
 
 .wrapper-image.left figure {
   margin-bottom: 8px;
-}
-
-.profile-image {
-  border-radius: 50%;
 }
 
 .left {
