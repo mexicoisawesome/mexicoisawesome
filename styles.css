@@ -38,19 +38,6 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  clear: both;
-}
-
-h1 {
-  font-family: "Bitter Bold", serif;
-  line-height: 133%;
-  margin: 0 0 23px 0;
-  font-size: 1.7em;
-  font-weight: normal;
-  display: block;
-}
-
 h2 {
   font-family: "Bitter Bold", serif;
   line-height: 133%;
