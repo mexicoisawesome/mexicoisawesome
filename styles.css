@@ -21,6 +21,12 @@ html, body, h1, h2, h3, h4, span, em, p, table, th, tr, td, thead, tfoot, tbody,
 }
 
 @font-face {
+  font-family: 'Bitter Bold Italic';
+  font-display: block;
+  src: url('fonts/Bitter-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
   font-family: 'Bitter Bold';
   font-display: block;
   src: url('fonts/Bitter-Bold.woff2') format('woff2');
@@ -101,8 +107,8 @@ em {
 }
 
 h2 em, h3 em, h4 em, strong em {
-  font-style: italic;
-  font-family: "Bitter Bold", serif;
+  font-style: normal;
+  font-family: "Bitter Bold Italic", serif;
 }
 
 ul {
@@ -279,13 +285,6 @@ footer {
   font-style: normal;
 }
 
-.rating {
-  font-size: 1.2em;
-  position: relative;
-  top: 1px;
-  margin: 0 2px 0 0;
-}
-
 .quote {
   margin: 0 14px 14px 14px;
   display: block;
@@ -296,11 +295,11 @@ footer {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.sans-serif p {
+p.sans-serif {
 	margin-bottom: 8px;
 }
 
-.sans-serif h3 {
+h3.sans-serif {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	margin-bottom: 8px;
