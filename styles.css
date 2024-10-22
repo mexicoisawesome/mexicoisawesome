@@ -1,4 +1,4 @@
-html, body, h1, h2, h3, h4, span, em, p, table, th, tr, td, thead, tfoot, tbody, blockquote, a, small, pre, strong, sup, ol, ul, li, audio, img, figure, caption, article, footer, header {
+html, body, h1, h2, h3, h4, span, em, p, s, table, th, tr, td, thead, tfoot, tbody, blockquote, a, small, pre, strong, sup, ol, ul, li, audio, img, figure, caption, article, footer, header {
   margin: 0;
   padding: 0;
   border: 0;
@@ -370,8 +370,12 @@ h4.sans-serif {
   display: inline-block;
 }
 
-@media screen and (max-width: 349px) {
+@media screen and (max-width: 341px) {
   .left {
 		float: none;
 	}
+  .wrapper-image {
+    max-width: 303px;
+    min-width: 100%;
+  }
 }
